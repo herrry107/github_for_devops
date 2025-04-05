@@ -1,3 +1,9 @@
-git add .\test.txt
+git add .\test.txt              # untrack to stagging
 git status
-git rm --cached .\test.txt
+git rm --cached .\test.txt      # stagging to untrack 
+git add .\test.txt              # untrack to stagging
+git commit -m "second commit"   # stagging to tracking
+git remote add origin git@github.com:herrry107/github_for_devops.gits
+git remote -v
+git remote set-url origin https://<token-developer-setting>@github.com/herrry107/github_for_devops.git
+git push origin master
